@@ -14,6 +14,7 @@ import Admin from './Pages/adminPage/Admin'
 function  App() {
   return (
    <div className='main'> 
+   
      <Router > 
       <Routes > 
         <Route index  element ={<Home />} />
@@ -23,8 +24,6 @@ function  App() {
         <Route path='/countries' element={<Countries />} />
         <Route path= "/contact" element={<Contact />} /> 
         <Route path='admin-panel' element={<Admin />} />
-        
-        
         
       </Routes>
    </Router>
