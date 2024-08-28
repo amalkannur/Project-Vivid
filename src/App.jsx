@@ -24,7 +24,6 @@ function  App() {
         <Route path='/countries' element={<Countries />} />
         <Route path= "/contact" element={<Contact />} /> 
         <Route path='admin-panel' element={<Admin />} />
-        
       </Routes>
    </Router>
    </div>
